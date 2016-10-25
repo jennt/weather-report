@@ -3,12 +3,14 @@ GEM
     httparty (0.14.0)
       multi_xml (>= 0.5.2)
     multi_xml (0.5.5)
+    redis (3.3.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   httparty
+  redis
 
 BUNDLED WITH
    1.13.2
