@@ -12,7 +12,7 @@ class Location
 
   def display_data()
     @data = HTTParty.get("http://api.wunderground.com/api//2e437d4fdd47f036/geolookup/alerts/astronomy/conditions/currenthurricane/forecast10day/settings/q/#{@zip}.json")
-
+    #binding.pry
     current_temp = @data['current_observation']['temp_f']
     puts "The current temperature in your area is #{current_temp} degrees."
     40.times do print "=" end

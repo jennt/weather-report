@@ -13,7 +13,7 @@ def main
 
   location.display_data
 
-  location.redis_test
+  #location.redis_test
 
   # puts redis.get('hurricane')
 
